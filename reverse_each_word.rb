@@ -1,7 +1,7 @@
 def reverse_each_word(sentence)
   solution = []
   words = sentence.split(" ")
-  words.each |sentence| do
+  words.each do |sentence|
     soulution << sentence.reverse
   end
   return solution.join(" ")
@@ -10,7 +10,7 @@ end
 def reverse_each_word(sentence)
   solution = []
   words = sentence.split(" ")
-  words.collect |sentence| do
+  words.collect do |sentence| 
     soulution << sentence.reverse
   end
   return solution.join(" ")
