@@ -8,10 +8,10 @@ def reverse_each_word(sentence)
 end
 
 def reverse_each_word(sentence)
-  solution = []
+  array = []
   words = sentence.split(" ")
   words.collect do |sentence| 
-    soulution << sentence.reverse
+    array << sentence.reverse
   end
-  return solution.join(" ")
+  return array.join(" ")
 end
